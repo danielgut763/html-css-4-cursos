@@ -42,7 +42,7 @@ form {
 }
 
 form label,
-form p {
+form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
@@ -67,4 +67,21 @@ footer {
 .copyright {
   color: white;
   font-size: 13px;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s background;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkblue;
 }
