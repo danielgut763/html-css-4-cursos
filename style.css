@@ -162,6 +162,7 @@ th {
 .titulo-principal {
   text-align: center;
   font-size: 2em;
+  font-weight: bold;
   margin: 0 0 1em;
   clear: left;
 }
@@ -235,6 +236,13 @@ th {
 
 .imagembeneficios {
   width: 60%;
+  opacity: 1;
+  transition: 1s;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+.imagembeneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
