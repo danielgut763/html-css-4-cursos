@@ -40,7 +40,6 @@ nav a:hover {
 }
 
 .principal {
-  background: #cccccc;
   padding: 30px;
 }
 
@@ -87,4 +86,33 @@ footer {
 .copyright {
   color: white;
   font-size: 13px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.tituloPrincipal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
